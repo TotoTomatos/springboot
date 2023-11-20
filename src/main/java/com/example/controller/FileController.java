@@ -20,6 +20,9 @@ import java.util.List;
 @RequestMapping("/files")
 public class FileController {
 
+
+
+
     // 文件上传存储路径
     private static final String filePath = System.getProperty("user.dir") + "/files/";
 
@@ -90,6 +93,8 @@ public class FileController {
         FileUtil.del(filePath + flag);
         System.out.println("删除文件" + flag + "成功");
     }
+
+
 
 
 }
