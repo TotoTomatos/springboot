@@ -25,6 +25,14 @@ public class Category implements Serializable {
         this.id = id;
     }
 
+    public String getBusinessName() {
+        return businessName;
+    }
+
+    public void setBusinessName(String businessName) {
+        this.businessName = businessName;
+    }
+
     public String getName() {
         return name;
     }
